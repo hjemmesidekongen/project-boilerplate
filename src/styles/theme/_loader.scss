@@ -1,2 +1,6 @@
-@import "components/loader";
-@import "page/loader";
+@import "00_base/loader";
+@import "01_atom/loader";
+@import "02_molecule/loader";
+@import "03_organism/loader";
+@import "04_template/loader";
+@import "05_page/loader";
