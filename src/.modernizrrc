@@ -1,0 +1,25 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/css/flexbox",
+    "test/css/boxsizing",
+    "test/css/calc",
+    "test/css/cssgrid",
+    "test/css/gradients",
+    "test/css/rgba",
+
+    "test/storage/localstorage",
+    "test/storage/websqldatabase",
+    "test/storage/sessionstorage",
+    "test/indexeddb",
+
+    "test/es6/promises",
+    "test/serviceworker",
+    "test/cors",
+    "test/touchevents",
+    "test/svg"
+  ]
+}
