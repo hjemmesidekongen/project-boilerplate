@@ -35,7 +35,7 @@ mix.webpackConfig({
     },
     resolve: {
         alias: {
-            modernizr$: path.resolve(__dirname, "src/.modernizrrc")
+            modernizr$: path.resolve(__dirname, 'src/.modernizrrc')
         }
     }
 });
